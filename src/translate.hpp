@@ -78,16 +78,13 @@ void Translate (string inname, ofstream & outfile) { //Pass a reference to the f
            char * secondparam;
            char * thirdparam;
            char * fourthparam;
-           char * fifthparam = NULL;
            firstparam = strtok(linearr, delims); //Generate the tokens we need
            if(firstparam != NULL)
                 secondparam = strtok(NULL,delims); //This splits it into four, whenever we hit a delimiter we call the function again.
            if(secondparam != NULL)
                 thirdparam = strtok(NULL,delims);
            if(thirdparam != NULL)
-                fourthparam = strtok(NULL,delims);
-           if(fourthparam != NULL)
-                fifthparam = strtok(NULL,delims); //This splits the 3AC code into tokens of individual parameters, given a max number of 4 tokens, we do this.
+                fourthparam = strtok(NULL,delims); //This splits the 3AC code into tokens of individual parameters, given a max number of 4 tokens, we do this.
             //cout << firstparam << endl;
             //cout << secondparam << endl;
             //cout << thirdparam << endl;
