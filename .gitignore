@@ -1,0 +1,17 @@
+.vagrant
+ubuntu*
+src/*.o
+lexer/*.yy.cpp
+lexer/*.o
+lexer/lextest
+src/*.yy.cpp
+src/*.tab.hpp
+src/*.tab.cpp
+src/*.output
+bin/*
+compiler_tests/*/*.s
+compiler_tests/*/*.cref
+bin2/*
+compiler_tests/*/*.o
+compiler_tests/exec/*
+executables/
