@@ -5,3 +5,4 @@ Contributors: Ani Hazarika & Aryan Ghobadi.
 
 The specification for this project is available [here](specification.md).
 
+![Compiler Diagram](compiler.png)
