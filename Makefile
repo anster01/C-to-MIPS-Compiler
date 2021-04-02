@@ -1,8 +1,6 @@
 CPPFLAGS += -std=c++11 -W -Wall -g -Wno-unused-parameter
 CPPFLAGS += -I include
 
-all : bin/print_canonical
-
 src/C_parser.tab.cpp src/C_parser.tab.hpp : src/C_parser.y
 	bison -v -d src/C_parser.y -o src/C_parser.tab.cpp
 
